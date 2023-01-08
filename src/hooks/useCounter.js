@@ -11,7 +11,7 @@ const useCounter = (count = 0) => {
     setCounter(count);
   };
 
-  const decrement = (factor = 1, limit = 1) => {
+  const decrement = (factor = 1, limit = 0) => {
     if (counter > limit) {
       setCounter(counter - factor);
     }
